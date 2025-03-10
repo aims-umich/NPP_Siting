@@ -1,5 +1,7 @@
 Brownfield-CPP_to_NPP_Transition
 
+https://www.sciencedirect.com/science/article/pii/S2590174525000558
+
 The dataset and codes which has been used while analyzing the suitability of NPP siting in U.S. brownfields and CPP sites. 
 
 The preprocessing (1), processing (2), postprocessing (3) and neural network training (4) steps are outlined below:

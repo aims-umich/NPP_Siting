@@ -27,11 +27,11 @@ conda env create -f tfgpu_environment.yml
 
 The preprocessing (1), processing (2), postprocessing (3) and neural network training (4) steps are outlined below:
 
-1. Data generation of the brownfields and CPPs are done separately in this folder. 
+1. Data generation of the brownfields and CPPs are done separately in this folder.
 
-  1. The preprocessing starts at Data Generation. The raw data from GeoDataBase files exist in "bf" folder. "merge_data.py" merges these data from different data acquisition steps. 
-
-  2. In cpp folder, the raw data of coal power plants are merged. Then the codes "coord_to_state_county.py", "state_county_to_fips.py", and "merge_objectives_and_fips.py" merge the FIPS codes of each CPP with the raw datasets.
+     - **1.1** The preprocessing starts at Data Generation. The raw data from GeoDataBase files exist in "bf" folder. "merge_data.py" merges these data from different data acquisition steps
+   
+     - **1.2** In "cpp" folder, the raw data of coal power plants are merged. Then the codes "coord_to_state_county.py", "state_county_to_fips.py", and "merge_objectives_and_fips.py" merge the FIPS codes of each CPP with the raw datasets.
 
 2. In Data Processing folder, Brownfield_Data.csv and CPP_Data_Complete.csv files hold the merged files. "Brownfield_NS_v13.py" code starts by merging them, then it negates the negative objectives, processes the proximity objectives to match them with the objectives presented in the STAND tool, min-max scales the objectives. Then it runs this preprocessed dataset through the methodology described in the paper "Multi-objective Combinatorial Methodology for Nuclear Reactor Site Assessment: A Case Study for the United States".
 
@@ -39,10 +39,10 @@ The preprocessing (1), processing (2), postprocessing (3) and neural network tra
 
 4. Model Training folder uses "Complete_BF_CPP_XY_Data.csv" file. This folder includes the ConcNN and LUT-NN scripts. The grid tuning directory and model training directory has separate virtual environments.
 
-  1. Model_grid_tuning folder has the grid hyperparameter tuning script "Model_Grid_Tuner.py" for two cases, first layer of ConcNN, and LUT-NN and second layer of ConcNN. 
+     - **4.1** Model_grid_tuning folder has the grid hyperparameter tuning script "Model_Grid_Tuner.py" for two cases, first layer of ConcNN, and LUT-NN and second layer of ConcNN. 
 
-  2. "Interpolator_only.ipynb" file shows the structure of the interpolator used in LUT-NN model. 
+     - **4.2** "Interpolator_only.ipynb" file shows the structure of the interpolator used in LUT-NN model. 
 
-  3. "ConcNN_Training_2000_ep_256_bs" file shows the codes used to generate the ConcNN model described in the paper. Its model is given as "Model_ConcNN_First_Part_2000_256.keras". The first part of the model has been trained in "ConcNN_First_Part_Metrics.ipynb" for comparison with the interpolation, and its model is given in "Model_ConcNN_First_Part_2000_256.keras".
+     - **4.3** "ConcNN_Training_2000_ep_256_bs" file shows the codes used to generate the ConcNN model described in the paper. Its model is given as "Model_ConcNN_First_Part_2000_256.keras". The first part of the model has been trained in "ConcNN_First_Part_Metrics.ipynb" for comparison with the interpolation, and its model is given in "Model_ConcNN_First_Part_2000_256.keras".
 
-  4. "LUT-NN_training_1000_ep_16_bs" file shows the codes used to generate the LUT-NN model described in the paper. Its model is given as "Model_LUT-NN_1000_16.keras".
+     - **4.4** "LUT-NN_training_1000_ep_16_bs" file shows the codes used to generate the LUT-NN model described in the paper. Its model is given as "Model_LUT-NN_1000_16.keras".

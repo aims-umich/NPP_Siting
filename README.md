@@ -25,24 +25,52 @@ conda env create -f tfgpu_environment.yml
 
 ## How to generate the results
 
-The preprocessing (1), processing (2), postprocessing (3) and neural network training (4) steps are outlined below:
+The files have been separated to 3 parts. Preprocessing (1), processing (2), postprocessing (3) and neural network training (4) steps are outlined below. For each folder, running the accompanying Python or Jupyter Notebook files creates the datasets, processes and postprocesses the results.
 
-1. Data generation of the brownfields and CPPs are done separately in this folder.
+- Step 1: Run the data generation of the brownfields in the "NPP_Siting/Preprocessing/Brownfields" directory. This script merges the data coming from different computations and GeoDataBase layers. 
 
-     - **1.1** The preprocessing starts at Data Generation. The raw data from GeoDataBase files exist in "bf" folder. "merge_data.py" merges these data from different data acquisition steps
-   
-     - **1.2** In "cpp" folder, the raw data of coal power plants are merged. Then the codes "coord_to_state_county.py", "state_county_to_fips.py", and "merge_objectives_and_fips.py" merge the FIPS codes of each CPP with the raw datasets.
+```bash
+nohup python merge_data.py &
+```
 
-2. In Data Processing folder, Brownfield_Data.csv and CPP_Data_Complete.csv files hold the merged files. "Brownfield_NS_v13.py" code starts by merging them, then it negates the negative objectives, processes the proximity objectives to match them with the objectives presented in the STAND tool, min-max scales the objectives. Then it runs this preprocessed dataset through the methodology described in the paper "Multi-objective Combinatorial Methodology for Nuclear Reactor Site Assessment: A Case Study for the United States".
+- Step 2: Run the data generation of the coal power plants in the "NPP_Siting/Preprocessing/CPPs" directory. This script merges the data coming from different computations and GeoDataBase layers. 
 
-3. The Data Visualization takes recorder.txt and obj_contributions.txt files. It uses "recorder_reader.ipynb" file to read the recorder file. This file normalizes the file for each combination length, creates the siting metric, and creates the 3D plot in the paper. Then after the best site is found, "2d_site_plotter.ipynb" creates the 2D plot for the best site result. "process_obj_contributions.py" creates the summed normalized objective contributions. "show_bar_chart_for_importances.py" plots the objective contributions of best 6 sites. "create_filled_xy_data.ipynb" reverses the coordinate rounding. "create_xy_data_with_results.py" creates the new, complete dataset with objectives and processing results. "get_final_res_for_mapping.py" gets the siting metric and coordinates for the top results. "mapper.py" creates the map for the best sites. "plot_computation_time.ipynb" prints and plots the computation times. "get_variance_change.py" plots the variance change w.r.t. combination length.
+```bash
+nohup papermill cpp_preprocessor.ipynb cpp_preprocessor_out.ipynb &
+```
 
-4. Model Training folder uses "Complete_BF_CPP_XY_Data.csv" file. This folder includes the ConcNN and LUT-NN scripts. The grid tuning directory and model training directory has separate virtual environments.
+- Step 3: Run the processor script in "NPP_Siting/Processing" directory. This script includes the main data processing code, it requires very high amount of computational power.
 
-     - **4.1** Model_grid_tuning folder has the grid hyperparameter tuning script "Model_Grid_Tuner.py" for two cases, first layer of ConcNN, and LUT-NN and second layer of ConcNN. 
+```bash
+nohup pyton Brownfield_NS_v13.py &
+```
 
-     - **4.2** "Interpolator_only.ipynb" file shows the structure of the interpolator used in LUT-NN model. 
+- Step 4: Run the postprocessor script in "NPP_Siting/Postprocessing" directory. The codes in this Jupyter Notebook generates all the siting metric data, site objective contributions, and the figures shown in the paper.
 
-     - **4.3** "ConcNN_Training_2000_ep_256_bs" file shows the codes used to generate the ConcNN model described in the paper. Its model is given as "Model_ConcNN_First_Part_2000_256.keras". The first part of the model has been trained in "ConcNN_First_Part_Metrics.ipynb" for comparison with the interpolation, and its model is given in "Model_ConcNN_First_Part_2000_256.keras".
+```bash
+nohup papermill postprocessor.ipynb postprocessor_out.ipynb &
+```
 
-     - **4.4** "LUT-NN_training_1000_ep_16_bs" file shows the codes used to generate the LUT-NN model described in the paper. Its model is given as "Model_LUT-NN_1000_16.keras".
+The data of postprocessing is exported at every step and can be found in the "NPP_Siting/Postprocessing" directory after running this Jupyter Notebook.
+
+- Step 5: Run the postprocessor script in "NPP_Siting/Postprocessing" directory. The codes in this Jupyter Notebook generates all the siting metric data, site objective contributions, and the figures shown in the paper.
+
+- Step 6: Run the model first layer tuner in the "NPP_Siting/Model_Training/Grid_tuning/ConcNN_First_Layer_Tuning" directory.
+
+```bash
+nohup python Model_Grid_Tuner.py &
+```
+
+- Step 7: Run the model second layer tuner in the "NPP_Siting/Model_Training/Grid_tuning/ConcNN_and_LUT-NN_Second_Layer_Hypertune" directory.
+
+```bash
+nohup python Model_Grid_Tuner.py &
+```
+
+- Step 8: Train the models in the "NPP_Siting/Model_Training" directory.
+
+```bash
+nohup papermill Interpolator.ipynb Interpolator_out.ipynb &
+nohup papermill ConcNN.ipynb ConcNN_out.ipynb &
+nohup papermill LUT-NN.ipynb LUT-NN_out.ipynb &
+```

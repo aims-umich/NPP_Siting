@@ -1,0 +1,4 @@
+population: 4 miles and lower get 0, highest get 1, middle linear
+transport: 1 miles and lower get 1, max get 0, middle linear
+substation: closest gets 1, highest is 0, linear
+retired facility: more than 1 miles get 0, lowest becomes 1, lowest distance to 1 miles linear

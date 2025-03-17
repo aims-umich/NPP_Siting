@@ -1,0 +1,266 @@
+Identifier,Longitude,Latitude,State,County
+C3,-88.0103,31.0069,Alabama,Mobile County
+C26,-86.45806,33.244211,Alabama,Shelby County
+C59,-98.34822,40.854765,Nebraska,Hall County
+C60,-98.31244,40.580872,Nebraska,Adams County
+C108,-100.9725,37.9308,Kansas,Finney County
+C113,-110.3033,34.9394,Arizona,Navajo County
+C130,-80.11324,33.371506,South Carolina,Berkeley County
+C136,-81.63278,29.733056,Florida,Putnam County
+C160,-109.8931,32.0603,Arizona,Cochise County
+C165,-95.2894,36.190278,Oklahoma,Mayes County
+C298,-96.2525,31.4219,Texas,Limestone County
+C470,-104.5747,38.2081,Colorado,Pueblo County
+C492,-104.8333,38.824444,Colorado,El Paso County
+C525,-107.185,40.4856,Colorado,Routt County
+C564,-81.1678,28.4822,Florida,Orange County
+C594,-75.2341,38.5857,Delaware,Sussex County
+C602,-76.5389,39.18,Maryland,Anne Arundel County
+C628,-82.6977,28.9656,Florida,Citrus County
+C641,-87.2244,30.5661,Florida,Escambia County
+C645,-82.4036,27.7944,Florida,Hillsborough County
+C667,-81.5525,30.4172,Florida,Duval County
+C703,-84.9222,34.1256,Georgia,Bartow County
+C856,-89.6631,40.5958,Illinois,Peoria County
+C876,-89.49639,39.590556,Illinois,Christian County
+C879,-89.6786,40.5408,Illinois,Tazewell County
+C883,-87.8133,42.3833,Illinois,Lake County
+C884,-88.0629,41.6334,Illinois,Will County
+C887,-88.85889,37.2094,Illinois,Massac County
+C889,-89.8544,38.205,Illinois,Randolph County
+C963,-89.60239,39.754803,Illinois,Sangamon County
+C976,-88.95311,37.619747,Illinois,Williamson County
+C983,-85.4206,38.7378,Indiana,Jefferson County
+C994,-87.2525,38.5281,Indiana,Pike County
+C997,-86.9086,41.7208,Indiana,LaPorte County
+C1001,-87.4244,39.9242,Indiana,Vermillion County
+C1004,-87.2472,38.8067,Indiana,Knox County
+C1012,-87.3275,37.9111,Indiana,Warrick County
+C1024,-86.8992,40.048889,Indiana,Montgomery County
+C1040,-84.8953,39.8028,Indiana,Wayne County
+C1047,-91.1675,43.3359,Iowa,Allamakee County
+C1073,-91.63917,41.944039,Iowa,Linn County
+C1082,-95.8408,41.18,Iowa,Pottawattamie County
+C1091,-96.36171,42.299794,Iowa,Woodbury County
+C1104,-91.11667,40.7412,Iowa,Des Moines County
+C1167,-91.0569,41.3917,Iowa,Muscatine County
+C1241,-94.6456,38.3481,Kansas,Linn County
+C1250,-95.26917,39.0072,Kansas,Douglas County
+C1355,-84.71257,37.78831,Kentucky,Mercer County
+C1356,-85.035,38.7497,Kentucky,Carroll County
+C1364,-85.9103,38.0525,Kentucky,Jefferson County
+C1379,-88.775,37.1517,Kentucky,McCracken County
+C1384,-84.5919,36.9981,Kentucky,Pulaski County
+C1393,-93.2911,30.2844,Louisiana,Calcasieu Parish
+C1554,-76.5268,39.1781,Maryland,Anne Arundel County
+C1573,-76.9767,38.3592,Maryland,Charles County
+C1702,-83.84007,43.644996,Michigan,Bay County
+C1710,-86.20074,42.910296,Michigan,Ottawa County
+C1733,-83.3464,41.8906,Michigan,Monroe County
+C1743,-82.4719,42.7642,Michigan,St. Clair County
+C1745,-83.1808,42.1217,Michigan,Wayne County
+C1832,-84.65722,42.692222,Michigan,Eaton County
+C1893,-93.6528,47.2611,Minnesota,Itasca County
+C1915,-92.7786,45.03,Minnesota,Washington County
+C1979,-92.935,47.4294,Minnesota,Saint Louis County
+C2079,-94.4778,39.1306,Missouri,Jackson County
+C2103,-90.83769,38.562244,Missouri,Franklin County
+C2104,-90.3358,38.4017,Missouri,St. Louis County
+C2107,-90.29025,38.915479,Missouri,St. Charles County
+C2167,-89.5617,36.5147,Missouri,New Madrid County
+C2168,-92.6381,39.5522,Missouri,Randolph County
+C2240,-96.4623,41.4281,Nebraska,Dodge County
+C2277,-96.7847,40.5589,Nebraska,Lancaster County
+C2291,-95.94466,41.32909,Nebraska,Douglas County
+C2364,-71.4692,43.1411,New Hampshire,Merrimack County
+C2367,-70.7842,43.0978,New Hampshire,Rockingham County
+C2442,-108.4814,36.69,New Mexico,San Juan County
+C2451,-108.4386,36.8006,New Mexico,San Juan County
+C2554,-79.34663,42.491467,New York,Chautauqua County
+C2712,-79.0731,36.4833,North Carolina,Person County
+C2718,-81.0122,35.1897,North Carolina,Gaston County
+C2721,-81.7594,35.22,North Carolina,Rutherford County
+C2727,-80.9658,35.5975,North Carolina,Catawba County
+C2790,-100.8836,46.8669,North Dakota,Morton County
+C2817,-101.3212,47.280769,North Dakota,Mercer County
+C2823,-101.2131,47.065854,North Dakota,Oliver County
+C2828,-80.6486,40.2522,Ohio,Jefferson County
+C2832,-84.8036,39.1128,Ohio,Hamilton County
+C2836,-82.05462,41.504453,Ohio,Lorain County
+C2866,-80.6319,40.5317,Ohio,Jefferson County
+C2876,-82.1289,38.9144,Ohio,Gallia County
+C2914,-81.46815,40.520066,Ohio,Tuscarawas County
+C2935,-81.76576,40.850964,Ohio,Wayne County
+C2936,-81.254,41.7265,Ohio,Lake County
+C2952,-95.28732,35.76135,Oklahoma,Muskogee County
+C2963,-95.7008,36.4317,Oklahoma,Rogers County
+C3118,-79.0611,40.3842,Pennsylvania,Westmoreland County
+C3122,-79.19611,40.512825,Pennsylvania,Indiana County
+C3130,-79.03366,40.40625,Pennsylvania,Westmoreland County
+C3136,-79.3411,40.6604,Pennsylvania,Armstrong County
+C3149,-76.6672,41.0714,Pennsylvania,Montour County
+C3297,-80.6228,33.8264,South Carolina,Richland County
+C3298,-79.9297,33.0158,South Carolina,Berkeley County
+C3396,-84.1567,36.0211,Tennessee,Anderson County
+C3399,-87.6539,36.3903,Tennessee,Stewart County
+C3403,-86.4006,36.3156,Tennessee,Sumner County
+C3407,-84.5194,35.8992,Tennessee,Roane County
+C3470,-95.6311,29.4828,Texas,Fort Bend County
+C3797,-77.3833,37.3822,Virginia,Chesterfield County
+C3845,-122.8598,46.755938,Washington,Lewis County
+C3935,-81.8233,38.4731,West Virginia,Putnam County
+C3943,-79.9275,39.710833,West Virginia,Monongalia County
+C3944,-80.3325,39.384167,West Virginia,Harrison County
+C3948,-80.8153,39.8297,West Virginia,Marshall County
+C3954,-79.2636,39.2008,West Virginia,Grant County
+C4041,-87.8294,42.8457,Wisconsin,Milwaukee County
+C4050,-87.70586,43.715142,Wisconsin,Sheboygan County
+C4078,-89.6553,44.8606,Wisconsin,Marathon County
+C4158,-105.7769,42.8378,Wyoming,Converse County
+C4162,-110.5983,41.7581,Wyoming,Lincoln County
+C4271,-91.91265,44.303583,Wisconsin,Buffalo County
+C6002,-87.0597,33.6319,Alabama,Jefferson County
+C6004,-81.29444,39.366667,West Virginia,Pleasants County
+C6009,-92.1406,34.4228,Arkansas,Jefferson County
+C6017,-88.2781,38.9361,Illinois,Jasper County
+C6018,-84.8514,38.9036,Kentucky,Boone County
+C6019,-84.2289,38.8675,Ohio,Clermont County
+C6021,-107.5912,40.4627,Colorado,Moffat County
+C6030,-101.1571,47.377743,North Dakota,McLean County
+C6034,-82.495,42.7756,Michigan,Saint Clair County
+C6041,-83.8181,38.7,Kentucky,Mason County
+C6052,-85.03233,33.41342,Georgia,Heard County
+C6055,-91.3692,30.7261,Louisiana,Pointe Coupee Parish
+C6064,-94.6975,39.1681,Kansas,Wyandotte County
+C6065,-94.98,39.4472,Missouri,Platte County
+C6068,-96.11723,39.286453,Kansas,Pottawatomie County
+C6071,-85.4117,38.5847,Kentucky,Trimble County
+C6073,-88.5553,30.5322,Mississippi,Jackson County
+C6076,-106.614,45.8831,Montana,Rosebud County
+C6077,-101.1408,41.0808,Nebraska,Lincoln County
+C6085,-87.0261,41.2164,Indiana,Jasper County
+C6090,-93.8931,45.3808,Minnesota,Sherburne County
+C6095,-97.05279,36.45307,Oklahoma,Noble County
+C6096,-95.7764,40.6214,Nebraska,Otoe County
+C6098,-96.51007,45.303652,South Dakota,Grant County
+C6101,-105.3815,44.290128,Wyoming,Campbell County
+C6113,-87.76583,38.372222,Indiana,Gibson County
+C6137,-87.715,37.9053,Indiana,Posey County
+C6138,-94.5241,36.2561,Arkansas,Benton County
+C6139,-94.83999,33.05522,Texas,Titus County
+C6146,-94.5706,32.2606,Texas,Rusk County
+C6155,-90.26316,38.131248,Missouri,Jefferson County
+C6165,-111.0289,39.1747,Utah,Emery County
+C6166,-87.0372,37.9256,Indiana,Spencer County
+C6177,-109.2708,34.5789,Arizona,Apache County
+C6178,-97.21417,28.7128,Texas,Goliad County
+C6179,-96.7506,29.9172,Texas,Fayette County
+C6180,-96.4866,31.1803,Texas,Robertson County
+C6181,-98.3228,29.308056,Texas,Bexar County
+C6183,-98.4775,28.7044,Texas,Atascosa County
+C6190,-92.71667,31.395,Louisiana,Rapides Parish
+C6193,-101.7472,35.29816,Texas,Potter County
+C6194,-102.57,34.186494,Texas,Lamb County
+C6195,-93.38804,37.151706,Missouri,Greene County
+C6204,-104.8825,42.108889,Wyoming,Platte County
+C6213,-87.5108,39.0694,Indiana,Sullivan County
+C6248,-103.6803,40.2217,Colorado,Morgan County
+C6249,-79.35724,33.33184,South Carolina,Georgetown County
+C6250,-78.8917,36.5278,North Carolina,Person County
+C6254,-92.55583,41.0961,Iowa,Wapello County
+C6257,-83.8075,33.0606,Georgia,Monroe County
+C6264,-81.9344,38.9794,West Virginia,Mason County
+C6469,-101.8357,47.370542,North Dakota,Mercer County
+C6481,-112.5802,39.509731,Utah,Millard County
+C6639,-87.5,37.6461,Kentucky,Webster County
+C6641,-91.40876,35.678442,Arkansas,Independence County
+C6664,-91.0931,41.3181,Iowa,Louisa County
+C6705,-87.3328,37.915,Indiana,Warrick County
+C6761,-105.0212,40.860905,Colorado,Larimer County
+C6768,-89.6209,36.8791,Missouri,Scott County
+C6772,-95.3206,34.0158,Oklahoma,Choctaw County
+C6823,-87.0806,37.4497,Kentucky,Ohio County
+C7030,-96.69503,31.091925,Texas,Robertson County
+C7097,-98.3203,29.309722,Texas,Bexar County
+C7213,-78.704,36.869,Virginia,Halifax County
+C7242,-81.9897,27.7286,Florida,Polk County
+C7343,-96.3617,42.3006,Iowa,Woodbury County
+C7504,-105.3833,44.2856,Wyoming,Campbell County
+C7790,-109.2844,40.0864,Utah,Uintah County
+C7902,-94.4852,32.4607,Texas,Harrison County
+C8023,-89.4203,43.4864,Wisconsin,Columbia County
+C8042,-80.0603,36.2811,North Carolina,Stokes County
+C8066,-108.7875,41.7378,Wyoming,Sweetwater County
+C8069,-111.0781,39.3792,Utah,Emery County
+C8102,-82.1158,38.9347,Ohio,Gallia County
+C8219,-104.7058,38.633451,Colorado,El Paso County
+C8222,-101.8157,47.221447,North Dakota,Mercer County
+C8223,-109.1639,34.3186,Arizona,Apache County
+C8224,-117.1516,40.881317,Nevada,Humboldt County
+C8226,-79.7906,40.5383,Pennsylvania,Allegheny County
+C10043,-75.40667,39.7928,New Jersey,Gloucester County
+C10075,-90.9114,47.5314,Minnesota,Cook County
+C10113,-76.1983,40.7903,Pennsylvania,Schuylkill County
+C10143,-78.8,40.55,Pennsylvania,Cambria County
+C10151,-80.16314,39.561831,West Virginia,Marion County
+C10234,-89.78,44.43,Wisconsin,Wood County
+C10343,-76.45295,40.811189,Pennsylvania,Northumberland County
+C10504,-114.4328,42.5328,Idaho,Twin Falls County
+C10566,-75.48581,39.693494,New Jersey,Salem County
+C10603,-78.7472,40.455,Pennsylvania,Cambria County
+C10671,-94.6458,35.1931,Oklahoma,Le Flore County
+C10678,-78.74533,39.595171,Maryland,Allegany County
+C10684,-117.3833,35.765,California,San Bernardino County
+C10743,-79.96056,39.6397,West Virginia,Monongalia County
+C10784,-106.6547,45.9752,Montana,Rosebud County
+C10849,-91.26053,47.286573,Minnesota,Lake County
+C10860,-90.2097,41.8206,Iowa,Clinton County
+C10861,-93.58452,41.624438,Iowa,Polk County
+C10862,-96.61449,40.866463,Nebraska,Lancaster County
+C10863,-93.99242,44.187066,Minnesota,Blue Earth County
+C10864,-91.6875,41.9221,Iowa,Linn County
+C10865,-88.89076,39.870074,Illinois,Macon County
+C10867,-88.93194,39.84919,Illinois,Macon County
+C50397,-76.86812,39.870935,Pennsylvania,York County
+C50481,-82.5431,36.5219,Tennessee,Sullivan County
+C50611,-76.45,40.6191,Pennsylvania,Schuylkill County
+C50776,-75.8781,40.8556,Pennsylvania,Carbon County
+C50835,-86.28905,44.217299,Michigan,Manistee County
+C50888,-75.4792,40.6917,Pennsylvania,Northampton County
+C50900,-79.9947,37.799722,Virginia,Alleghany County
+C50933,-89.4205,45.6394,Wisconsin,Oneida County
+C50951,-110.3917,39.5472,Utah,Carbon County
+C50974,-79.8134,41.2691,Pennsylvania,Venango County
+C54098,-88.2534,44.2826,Wisconsin,Outagamie County
+C54210,-97.06311,47.437562,North Dakota,Traill County
+C54211,-96.76112,46.9026,Minnesota,Clay County
+C54212,-96.63338,47.76468,Minnesota,Polk County
+C54213,-97.17608,48.593158,North Dakota,Pembina County
+C54214,-97.00715,47.927202,Minnesota,Polk County
+C54276,-79.0617,35.9069,North Carolina,Orange County
+C54318,-109.7542,41.5933,Wyoming,Sweetwater County
+C54533,-95.17979,44.796405,Minnesota,Renville County
+C54556,-87.8233,41.7775,Illinois,Cook County
+C54634,-76.1736,40.8222,Pennsylvania,Schuylkill County
+C54867,-86.6443,46.4094,Michigan,Alger County
+C55076,-89.2183,33.3761,Mississippi,Choctaw County
+C55479,-105.3833,44.2858,Wyoming,Campbell County
+C55749,-107.6,45.7578,Montana,Big Horn County
+C55856,-89.66694,38.279167,Illinois,Washington County
+C56068,-87.8336,42.8492,Wisconsin,Milwaukee County
+C56224,-116.5297,40.7461,Nevada,Eureka County
+C56319,-105.3811,44.2919,Wyoming,Campbell County
+C56456,-89.9489,35.6644,Arkansas,Mississippi County
+C56564,-93.81194,33.649722,Arkansas,Hempstead County
+C56596,-105.3806,44.2919,Wyoming,Campbell County
+C56609,-105.4608,44.388889,Wyoming,Campbell County
+C56611,-96.95715,31.474378,Texas,McLennan County
+C56671,-79.95897,39.707893,West Virginia,Monongalia County
+C56808,-82.33806,36.916389,Virginia,Wise County
+C57046,-97.28633,41.416442,Nebraska,Platte County
+C57914,-104.1356,47.717222,Montana,Richland County
+C57915,-109.8119,41.621667,Wyoming,Sweetwater County
+C57928,-89.215,37.711944,Illinois,Jackson County
+C57937,-103.6344,41.85887,Nebraska,Scotts Bluff County
+C57949,-83.44722,43.741111,Michigan,Huron County
+C62319,-108.4992,45.765346,Montana,Yellowstone County

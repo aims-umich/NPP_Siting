@@ -16,10 +16,10 @@ To set up environments for this project, follow these steps:
 conda env create -f NPP_env_environment.yml
 
 # 2. Create a new conda environment for model hyperparameter tuning in NPP_Siting/Model Training/Model_grid_tuning/ directory
-conda env create -f tfcpu_environment.yml
+conda env create -f Model_training/Grid_tuning/tfcpu_environment.yml
 
 # 3. Create a new conda environment for model training tuning in NPP_Siting/Model Training/ directory
-conda env create -f tfgpu_environment.yml
+conda env create -f Model_training/tfgpu_environment.yml
 
 ```
 
@@ -36,7 +36,7 @@ nohup python merge_data.py &
 - Step 2: Run the data generation of the coal power plants in the "NPP_Siting/Preprocessing/CPPs" directory. This script merges the data coming from different computations and GeoDataBase layers. 
 
 ```bash
-nohup papermill cpp_preprocessor.ipynb cpp_preprocessor_out.ipynb &
+nohup jupyter nbconvert --to notebook --execute --inplace cpp_preprocessor.ipynb > output.log 2>&1 &
 ```
 
 - Step 3: Run the processor script in "NPP_Siting/Processing" directory. This script includes the main data processing code, it requires very high amount of computational power.
@@ -48,7 +48,7 @@ nohup pyton Brownfield_NS_v13.py &
 - Step 4: Run the postprocessor script in "NPP_Siting/Postprocessing" directory. The codes in this Jupyter Notebook generates all the siting metric data, site objective contributions, and the figures shown in the paper.
 
 ```bash
-nohup papermill postprocessor.ipynb postprocessor_out.ipynb &
+nohup jupyter nbconvert --to notebook --execute --inplace postprocessor.ipynb > output.log 2>&1 &
 ```
 
 The data of postprocessing is exported at every step and can be found in the "NPP_Siting/Postprocessing" directory after running this Jupyter Notebook.
@@ -70,7 +70,7 @@ nohup python Model_Grid_Tuner.py &
 - Step 8: Train the models in the "NPP_Siting/Model_Training" directory.
 
 ```bash
-nohup papermill Interpolator.ipynb Interpolator_out.ipynb &
-nohup papermill ConcNN.ipynb ConcNN_out.ipynb &
-nohup papermill LUT-NN.ipynb LUT-NN_out.ipynb &
+nohup jupyter nbconvert --to notebook --execute --inplace Interpolator.ipynb > output.log 2>&1 &
+nohup jupyter nbconvert --to notebook --execute --inplace ConcNN.ipynb > output.log 2>&1 &
+nohup jupyter nbconvert --to notebook --execute --inplace LUT-NN.ipynb > output.log 2>&1 &
 ```

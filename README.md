@@ -19,7 +19,7 @@ conda env create -f NPP_env_environment.yml
 conda env create -f Model_training/Grid_tuning/tfcpu_environment.yml
 
 # 3. Create a new conda environment for model training tuning in NPP_Siting/Model Training/ directory
-conda env create -f Model_training/tfgpu_environment.yml
+conda env create -f Model_training/tfgpu_environment.yaml
 
 ```
 
@@ -42,7 +42,7 @@ nohup jupyter nbconvert --to notebook --execute --inplace cpp_preprocessor.ipynb
 - Step 3: Run the processor script in "NPP_Siting/Processing" directory. This script includes the main data processing code, it requires very high amount of computational power.
 
 ```bash
-nohup pyton Brownfield_NS_v13.py &
+nohup python Brownfield_NS_v13.py &
 ```
 
 - Step 4: Run the postprocessor script in "NPP_Siting/Postprocessing" directory. The codes in this Jupyter Notebook generates all the siting metric data, site objective contributions, and the figures shown in the paper.

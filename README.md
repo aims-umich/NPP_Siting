@@ -53,21 +53,19 @@ nohup jupyter nbconvert --to notebook --execute --inplace postprocessor.ipynb > 
 
 The data of postprocessing is exported at every step and can be found in the "NPP_Siting/Postprocessing" directory after running this Jupyter Notebook.
 
-- Step 5: Run the postprocessor script in "NPP_Siting/Postprocessing" directory. The codes in this Jupyter Notebook generates all the siting metric data, site objective contributions, and the figures shown in the paper.
-
-- Step 6: Run the model first layer tuner in the "NPP_Siting/Model_Training/Grid_tuning/ConcNN_First_Layer_Tuning" directory.
+- Step 5: Run the model first layer tuner in the "NPP_Siting/Model_Training/Grid_tuning/ConcNN_First_Layer_Tuning" directory.
 
 ```bash
 nohup python Model_Grid_Tuner.py &
 ```
 
-- Step 7: Run the model second layer tuner in the "NPP_Siting/Model_Training/Grid_tuning/ConcNN_and_LUT-NN_Second_Layer_Hypertune" directory.
+- Step 6: Run the model second layer tuner in the "NPP_Siting/Model_Training/Grid_tuning/ConcNN_and_LUT-NN_Second_Layer_Hypertune" directory.
 
 ```bash
 nohup python Model_Grid_Tuner.py &
 ```
 
-- Step 8: Train the models in the "NPP_Siting/Model_Training" directory.
+- Step 7: Train the models in the "NPP_Siting/Model_Training" directory.
 
 ```bash
 nohup jupyter nbconvert --to notebook --execute --inplace Interpolator.ipynb > output.log 2>&1 &

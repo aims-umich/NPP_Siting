@@ -14,7 +14,7 @@ To set up environments for this project, follow these steps:
 ```bash
 # 1. Create a new conda environment for data processing in NPP_Siting directory
 # This environment will be used in steps 1 - 4.
-conda env create -f NPP_env_environment.yaml
+conda env create -f NPP_env_environment.yml
 
 # 2. Create a new conda environment for model hyperparameter tuning in NPP_Siting/Model Training/Model_grid_tuning/ directory
 # This environment will be used in steps 5 and 6 while tuning model hyperparameters.

@@ -16,9 +16,11 @@ To set up environments for this project, follow these steps:
 conda env create -f NPP_env_environment.yaml
 
 # 2. Create a new conda environment for model hyperparameter tuning in NPP_Siting/Model Training/Model_grid_tuning/ directory
+# This environment will be used in steps 5 and 6 while tuning model hyperparameters.
 conda env create -f Model_Training/Grid_tuning/tfcpu_environment.yml
 
 # 3. Create a new conda environment for model training tuning in NPP_Siting/Model Training/ directory
+# This environment will be used in step 7 while training the final models.
 conda env create -f Model_Training/tfgpu_environment.yml
 
 ```
